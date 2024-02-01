@@ -1,0 +1,103 @@
+
+.hombre{
+
+position: absolute;
+left:35%;
+background-size: 500px;
+
+
+}
+.boton2{
+    color: #1465BB !important;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0.5em 1.2em;
+    background:#fff;
+    border: 2px solid;
+    border-color: #fff;
+    position: absolute;
+        left:45%;
+        top: 550px;
+        width: 152px;
+        text-align: center;
+        
+  }
+  .boton2:before {
+    
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 100%;
+    background: rgba(6, 9, 221, 0.1);
+    transition: all 1s ease;
+  }
+  .boton2:hover:before {
+  width: 100%;
+  }
+
+  
+  
+  .textodecompra{
+    position: absolute;
+    top:7rem;
+    left: 50rem;
+
+
+  }
+
+  .texto{
+    position: relative;
+    left: 43.5%;
+
+  } 
+
+  .icono{
+
+position: relative;
+left:-8%;
+
+  }
+  h1{
+
+    position: relative;
+    left: -2%;
+  }
+
+  .boton {
+    color: #fff !important;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0.5em 1.2em;
+    background:#1465BB;
+    border: 2px solid;
+    border-color: black;
+    position: relative;
+        left:45%;
+        top: 500px;
+  }
+  .boton:before {
+    content:"";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 0px;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    transition: all 1s ease;
+  }
+  .boton:hover:before {
+  width: 100%;
+  }
+  h1{
+    position: absolute;
+    text-align: center;
+    top:23rem;
+    left: 43%;
+
+  }
+
+
+
+
+  
